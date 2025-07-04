@@ -45,7 +45,7 @@ export default function SubscribeForm() {
         </Button>
       </form>
       {status === 'success' && (
-        <p className="mt-2 text-green-400">Success! Thanks for joining the waitlist. You'll hear from us soon.</p>
+        <p className="mt-2 text-green-400">Success! Thanks for joining the waitlist. You&apos;ll hear from us soon.</p>
       )}
       {status === 'error' && <p className="mt-2 text-red-400">Oops – something went wrong. Try again.</p>}
     </>
