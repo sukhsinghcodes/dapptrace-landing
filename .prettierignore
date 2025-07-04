@@ -1,0 +1,12 @@
+# compiled output
+.next
+dist
+build
+
+# config / meta
+package-lock.json
+pnpm-lock.yaml
+
+# images & assets
+public/**/*.svg
+public/**/*.png
