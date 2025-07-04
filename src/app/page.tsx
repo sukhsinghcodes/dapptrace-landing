@@ -13,17 +13,7 @@ export default function LandingPage() {
           priority
           className="w-full rounded-2xl shadow-xl"
         />
-        <div className="flex gap-2 items-center justify-center">
-          <Image
-            src="/dapptrace-logo-square.png"
-            alt="DappTrace logo"
-            width={80}
-            height={80}
-            priority
-            className="rounded-2xl shadow-xl"
-          />
-          <h1 className="text-5xl tracking-tight mb-4 pt-3">DappTrace</h1>
-        </div>
+        <h1 className="text-5xl tracking-tight mb-4 pt-3">DappTrace</h1>
         <h2 className="text-4xl tracking-tight">Trace every wallet journey</h2>
         <p className="mt-4 text-xl text-slate-400">
           DappTrace shows you exactly where users abandon a MetaMask prompt, why a signature fails and how your dApp
