@@ -21,7 +21,8 @@ export default function SubscribeForm() {
         })
         setStatus(res.ok ? 'success' : 'error')
         if (res.ok) setEmail('')
-      } catch (_) {
+      } catch (e) {
+        console.error(e)
         setStatus('error')
       }
     },
