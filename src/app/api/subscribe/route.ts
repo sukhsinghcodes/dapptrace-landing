@@ -18,8 +18,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ message: 'Invalid email' }, { status: 400 })
   }
 
-  const message = `New email: ${body.email}`
-  console.log('message', message)
+  const message = `${body.email}`
 
   const response = await fetch(url, {
     method: 'POST',
